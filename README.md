@@ -12,3 +12,8 @@ git clone https://github.com/chikenpotpi/adwaita-kde-colors.git
 cd ./adwaita-kde-colors
 ./install.sh
 ```
+For flatpak applications you need to set a global override:
+```
+flatpak override --user --filesystem=xdg-config/gtk-3.0
+flatpak override --user --filesystem=xdg-config/gtk-4.0
+```
