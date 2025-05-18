@@ -10,8 +10,12 @@ The 'gtk.css' files were generated from cosmic-settings, then mapped to 'colors.
 ```
 git clone https://github.com/chikenpotpi/adwaita-kde-colors.git
 cd ./adwaita-kde-colors
+chmod +x ./install.sh
 ./install.sh
 ```
+Then select an install option by typing 1, 2, or 3.
+
+### Flatpaks
 For flatpak applications you need to set a global override:
 ```
 flatpak override --user --filesystem=xdg-config/gtk-3.0
