@@ -1,6 +1,6 @@
 #!/bin/sh
-GTK3=$HOME/.config/test/gtk-3.0/gtk.css
-GTK4=$HOME/.config/test/gtk-4.0/gtk.css
+GTK3=$HOME/.config/gtk-3.0/gtk.css
+GTK4=$HOME/.config/gtk-4.0/gtk.css
 
 mainmenu() {
     echo -ne "1) Install for both GTK3/4
