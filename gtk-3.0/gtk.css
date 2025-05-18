@@ -2,7 +2,7 @@
 @define-color window_fg_color @theme_fg_color_breeze;
 
 @define-color view_bg_color @content_view_bg_breeze;
-@define-color view_fg_color @theme_fg_color_breeze);
+@define-color view_fg_color @theme_fg_color_breeze;
 
 @define-color headerbar_bg_color @theme_header_background_breeze;
 @define-color headerbar_fg_color @theme_header_foreground_breeze;
