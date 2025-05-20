@@ -21,6 +21,7 @@
 
 @define-color card_bg_color @theme_base_color_breeze;
 @define-color card_fg_color @theme_fg_color_breeze;
+@define-color card_shade_color @window_bg_color;
 
 @define-color thumbnail_bg_color @theme_base_color_breeze;
 @define-color thumbnail_fg_color @theme_fg_color_breeze;
