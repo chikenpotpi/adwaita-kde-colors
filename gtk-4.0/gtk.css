@@ -103,6 +103,7 @@
 
 :root {
   --accent-bg-color: @accent_color;
+  --sidebar-border-color: rgba(0, 0, 0, 0);
 }
 
 /* KDE Colors (These are auto imported by KDE when switching color schemes) */
