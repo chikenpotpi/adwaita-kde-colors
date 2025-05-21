@@ -1,3 +1,5 @@
+@define-color borders @borders_breeze;
+
 @define-color window_bg_color @theme_bg_color_breeze;
 @define-color window_fg_color @theme_fg_color_breeze;
 
@@ -21,7 +23,6 @@
 
 @define-color card_bg_color @theme_base_color_breeze;
 @define-color card_fg_color @theme_fg_color_breeze;
-@define-color card_shade_color @window_bg_color;
 
 @define-color thumbnail_bg_color @theme_base_color_breeze;
 @define-color thumbnail_fg_color @theme_fg_color_breeze;
@@ -102,9 +103,12 @@
 @define-color dark_4 rgba(255, 255, 255, 1.00);
 
 :root {
+	--borders: @borders;
+  --sidebar-border-color: color-mix(in srgb, var(--borders) 30%, transparent);
+  --card-shade-color: color-mix(in srgb, var(--borders) 30%, transparent);
   --accent-bg-color: @accent_color;
-  --sidebar-border-color: rgba(0, 0, 0, 0);
 }
+
 
 /* KDE Colors (These are auto imported by KDE when switching color schemes) */
 @import 'colors.css';
