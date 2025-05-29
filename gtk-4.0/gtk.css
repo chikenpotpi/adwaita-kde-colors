@@ -103,7 +103,7 @@
 @define-color dark_4 rgba(255, 255, 255, 1.00);
 
 :root {
-	--borders: @borders;
+  --borders: @borders;
   --sidebar-border-color: color-mix(in srgb, var(--borders) 30%, transparent);
   --card-shade-color: color-mix(in srgb, var(--borders) 30%, transparent);
   --accent-bg-color: @accent_color;
