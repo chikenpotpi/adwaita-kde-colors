@@ -109,6 +109,14 @@
   --accent-bg-color: @accent_color;
 }
 
+/* Chromium */
+window.background.chromium { background-color: @view_bg_color; }
+window.background.chromium headerbar.titlebar button.toggle, window.background.chromium headerbar.titlebar button.titlebutton { border: none; }
+window.background.chromium headerbar.titlebar button.titlebutton { background-image: none; }
+window.background.chromium button { border-style: solid; border-width: 1px; border-color: @accent_color; }
+window.background.chromium > textview.view { background-color: @view_bg_color; }
+window.background.chromium > searchbar { border-color: @accent_color; }
+
 
 /* KDE Colors (These are auto imported by KDE when switching color schemes) */
 @import 'colors.css';
