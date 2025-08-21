@@ -48,3 +48,10 @@ For flatpak applications you need to set a global override:
 flatpak override --user --filesystem=xdg-config/gtk-3.0
 flatpak override --user --filesystem=xdg-config/gtk-4.0
 ```
+
+### Live color changing
+GTK3 applications (such as firefox) can have their colors changed without the need to restart them.
+
+This can be done by setting: ```GTK_MODULES=colorreload-gtk-module``` as an environment variable. You can learn how to do this for KDE [here](https://wiki.archlinux.org/title/Environment_variables#Per_Wayland_session).
+
+Unforntunately this doesn't apply to GTK4/libadwaita applications, and I don't know of a way to reload color schemes for those applications.
