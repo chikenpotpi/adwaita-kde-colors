@@ -6,6 +6,7 @@
 @define-color view_bg_color @content_view_bg_breeze;
 @define-color view_fg_color @theme_fg_color_breeze;
 
+@define-color headerbar_bg_color @theme_header_background_breeze;
 @define-color headerbar_fg_color @theme_header_foreground_breeze;
 @define-color headerbar_border_color @borders;
 @define-color headerbar_backdrop_color @theme_header_background_breeze;
@@ -106,6 +107,7 @@
   --sidebar-border-color: color-mix(in srgb, var(--borders) 30%, transparent);
   --card-shade-color: color-mix(in srgb, var(--borders) 30%, transparent);
   --accent-bg-color: @accent_color;
+  --headerbar-bg-color: @headerbar_bg_color;
 }
 
 
