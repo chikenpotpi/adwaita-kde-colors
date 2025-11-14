@@ -108,6 +108,11 @@
   --card-shade-color: color-mix(in srgb, var(--borders) 30%, transparent);
   --accent-bg-color: @accent_color;
   --headerbar-bg-color: @headerbar_bg_color;
+  --headerbar-fg-color: @headerbar_fg_color;
+}
+
+headerbar {
+  background: none;
 }
 
 
