@@ -112,6 +112,12 @@
 }
 
 
+/* Fix for Folio borders */
+toolbarview > box > box:last-child > headerbar {
+	background: none;	
+}
+
+
 /* Chromium */
 window.background.chromium { background-color: @view_bg_color; }
 window.background.chromium headerbar.titlebar button.toggle, window.background.chromium headerbar.titlebar button.titlebutton { border: none; }
