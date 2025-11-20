@@ -111,10 +111,6 @@
   --headerbar-fg-color: @headerbar_fg_color;
 }
 
-headerbar {
-  background: none;
-}
-
 
 /* Chromium */
 window.background.chromium { background-color: @view_bg_color; }
